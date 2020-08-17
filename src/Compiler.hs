@@ -9,6 +9,9 @@
 {-# LANGUAGE DeriveAnyClass #-}
 
 module Compiler where
+-- use a W3C Grammar AST and build a parser for it at runtime
+-- this is damn slow, works well for simple grammars... 
+-- need to generate a parser source to be compiled instead
 
 import W3cData
 import Debug
